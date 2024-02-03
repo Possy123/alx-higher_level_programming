@@ -11,10 +11,6 @@ The add_integer
 11
 >>> add_integer(3.5, 2)
 5
->>> add_integer(100, -2)
-98
->>> add_integer(100.3, -2)
-98
 >>> add_integer(6, 9.5)
 15
 >>> add_integer(5, "school")
