@@ -1,0 +1,27 @@
+The add_integer
+
+    Parameter:
+    a = int or float
+    b = int or float
+
+>>> add_integer = __import__('0-add_integer').add_integer
+>>> add_integer(2, 3)
+5
+>>> add_integer(3, 8)
+11
+>>> add_integer(3.9, 2)
+5
+>>> add_integer(6, 9.6)
+15
+>>> add_integer(5, "school")
+Traceback (most recent call last):
+     File "<stdin>", line 1, in <module>
+TypeError: b must be an integer or float
+>>> add_integer("school", 4)
+Traceback (most recent call last):
+     File "<stdin>", line 1, in <module>
+TypeError: a must be an integer or float
+>>> add_integer(None)
+Traceback (most recent call last):
+     File "<stdin>", line 1, in <module>
+TypeError: a must be an integer or float
