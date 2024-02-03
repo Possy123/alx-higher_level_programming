@@ -8,9 +8,6 @@
 def add_integer(a, b=98):
     """
     add two numbers
-    Example:
-    >>> add(2, 3)
-    5
     """
     if not isinstance(a, (int, float)):
         raise TypeError("a must be an integer")
