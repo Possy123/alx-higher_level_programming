@@ -7,6 +7,9 @@ My name is John Possy
 >>> say_my_name("Walter", "White")
 My name is Walter White
 
+>>> say_my_name("Bob")
+My name is Bob 
+
 >>> say_my_name("John", 8)
 Traceback (most recent call last):
 TypeError: last_name must be a string
