@@ -1,4 +1,9 @@
 #!/usr/bin/python3
+"""
+    creates a JSON file
+"""
+
+
 import json
 
 

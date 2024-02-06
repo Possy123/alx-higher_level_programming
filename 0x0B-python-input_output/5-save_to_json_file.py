@@ -1,4 +1,9 @@
 #!/usr/bin/python3
+"""
+    Writes an object to text
+"""
+
+
 import json
 
 
